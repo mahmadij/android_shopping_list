@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="stores">
+
+    <item>NoFrills</item>
+
+    <item>FoodBasics</item>
+
+    <item>Foodland</item>
+
+    <item>Metro</item>
+
+    <item>Loblaws</item>
+
+    <item>Sobeys</item>
+
+    <item>Freshco</item>
+
+    <item>Other</item>
+
+</string-array>
+</resources>

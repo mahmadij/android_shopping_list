@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/buttonAdd" android:text="@string/add_saving" android:onClick="onButtonClick"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true" />
+
+    <Button android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/buttonShowAll" android:text="@string/show_all" android:onClick="onButtonClick" android:layout_alignParentBottom="true"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/nameTextView" android:text="Item Name:" android:layout_alignParentStart="true"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/nametext" android:layout_alignParentEnd="true" android:focusable="true" android:layout_toRightOf="@+id/nameTextView"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/storeTextView" android:text="Store Name:" android:layout_alignParentStart="true" android:layout_below="@+id/nametext"/>
+
+    <Spinner android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/storespinner" android:layout_alignParentStart="false" android:layout_below="@+id/nametext" android:layout_alignParentEnd="true" android:entries="@array/stores" android:focusable="true" android:layout_toRightOf="@+id/storeTextView"/>
+
+
+    <EditText android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/costText" android:layout_below="@+id/storespinner" android:layout_alignParentEnd="true" android:layout_toRightOf="@+id/costTextView" android:inputType="numberDecimal" android:ems="10" android:layout_marginLeft="20dp"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/costTextView" android:text="Cost:" android:layout_alignParentStart="true" android:layout_below="@+id/storespinner" />
+
+    <EditText android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/savText" android:layout_below="@+id/costText" android:layout_alignParentEnd="true" android:layout_toRightOf="@+id/savTextView" android:inputType="numberDecimal" android:ems="10" android:layout_marginLeft="20dp"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/savTextView" android:text="Saving:" android:layout_alignParentStart="true" android:layout_below="@+id/costText"/>
+
+    <ImageView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/imageView"
+        android:src="@drawable/shoplist1"
+        android:layout_below="@+id/buttonAdd"
+        android:layout_toEndOf="@+id/buttonAdd"
+        android:layout_marginTop="63dp" />
+</RelativeLayout>

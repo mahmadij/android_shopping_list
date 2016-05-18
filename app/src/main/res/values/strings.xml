@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">ShopList</string>
+
+    <string name="hello_world">Hello world!</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="title_activity_show_list">ShowList</string>
+
+    <string name="saving_month"/>
+
+    <string name="add_saving">Add Item</string>
+
+    <string name="show_all">Show List</string>
+
+    <string name="get_contact">Get Saving</string>
+
+    <string name="facebook_app_id">maj</string>
+
+    <string name="share">Share</string>
+
+    <string name="set_goal">Set Goal</string>
+
+    <string name="credit">Credit</string>
+
+    <string name="shopping">Shopping</string>
+
+    <string name="coupon">Coupon</string>
+
+    <string name="piggybank">Piggy Bank</string>
+
+    <string name="garagesale">Garage Sale</string>
+
+    <string name="work">Work</string>
+
+    <string name="title_activity_show">ShowActivity</string>
+    <string name="title_activity_user_setting">UserSettingActivity</string>
+</resources>
